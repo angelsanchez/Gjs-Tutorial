@@ -99,35 +99,34 @@ This example differs from the simple example as we extend :class:`Gtk.Window` to
 In the class’s constructor we have to call the constructor of the parent class, with an appropriate configuration object. In this case, we pass the title property, and set it to Hello World.
 
 .. literalinclude:: ../examples/extended_example.js
-    :lines: 9
+    :lines: 11
     :linenos:
-    :lineno-start: 9
+    :lineno-start: 11
 
 The next three lines are used to create a button widget, connect to its clicked signal and add it as child to the top-level window.
 
 .. literalinclude:: ../examples/extended_example.js
-    :lines: 10-12
+    :lines: 12-14
     :linenos:
-    :lineno-start: 10
+    :lineno-start: 12
 
 Accordingly, the method :meth:`onButtonClicked` will be called if you click on the button.
 
 .. literalinclude:: ../examples/extended_example.js
-    :lines: 15-17
+    :lines: 17-19
     :linenos:
-    :lineno-start: 15
+    :lineno-start: 17
 
 Remember to register the class after its definition.
 
 .. literalinclude:: ../examples/extended_example.js
-    :lines: 20
+    :lines: 22
     :linenos:
-    :lineno-start: 20
+    :lineno-start: 22
 
 Instead of creating an instance of the generic :class:`Gtk.Window` class, we create an instance of :class:`MyWindow`.
 
 .. literalinclude:: ../examples/extended_example.js
-    :lines: 22-25
+    :lines: 24-27
     :linenos:
-    :lineno-start: 22
-
+    :lineno-start: 24
